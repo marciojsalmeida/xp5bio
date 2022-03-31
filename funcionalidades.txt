@@ -1,0 +1,33 @@
+nome : xp5bio
+
+GERAL
+- link personalizavel (xp5.com.br/algumacoisa)
+- facebook pixel
+- fundo da pagina (imagem, cor fixa, cor degradê)
+- cor do texto 
+
+DISTRIBUIÇÃO DA PAGINA
+- imagem da pagina
+- titulo da pagina
+- descrição
+
+LINKS (ordenado como quiser)
+- texto
+- link
+- cor do texto do link
+- cor do fundo do link
+- tipo de borda (quadrada, arredondada)
+
+- feito com (icone coração) pela XP5
+
+- historico de view
+- historico de cliques em cada link
+
+USUARIO
+- x paginas (pode ser limitado pelo plano)
+- x links     (pode ser limitado pelo plano)
+
+
+
+
+
