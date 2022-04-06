@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Models\Page;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+
 
 class AdminController extends Controller
 {
@@ -65,7 +67,12 @@ class AdminController extends Controller
     }
 
     public function index(){
-        return view('/admin.index');
+        $user = Auth::user();
+        $pages = Page::where('id_user', $user->id)->get();
+
+        return view('/admin.index', [
+            'pages' => $pages
+        ]);
     }
 
 
